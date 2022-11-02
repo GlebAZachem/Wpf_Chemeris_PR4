@@ -10,43 +10,45 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Wpf_Chemeris_PR4
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Логика взаимодействия для Window14.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Window14 : Window
     {
-        public MainWindow()
+        public Window14()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Window1 window1 = new Window1();
-            window1.Show();
+            Window13 window13 = new Window13();
+            window13.Show();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Window7 window7 = new Window7();
-            window7.Show();
+            Window15 window15 = new Window15();
+            window15.Show();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            Window8 window8 = new Window8();
-            window8.Show();
+
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            Window14 window14 = new Window14();
-            window14.Show();
+
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
